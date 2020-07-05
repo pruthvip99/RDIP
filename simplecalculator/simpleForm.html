@@ -1,0 +1,34 @@
+<html>
+<head>
+    
+    <script src="cal.js"></script>
+   
+</head>
+<body>
+
+<div id="main">
+
+    <form name="form">
+      
+    </form>
+        <table>
+            <tr>
+                <td><label for="name">NAME :</label></td>
+                <td><input type="textbox" name="name" id="pName" onchange="validateName(this.value)"></td>
+            </tr>
+            <tr>
+                <td><label for="number">PHONE NUMBER :</label></td>
+                <td><input type="number" name="phoneNumber" id="pNumber" onchange="validateNumber(this.value)"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL :</label></td>
+                <td><input type="email" name="eMail" id="pEmail" onchange="validateEmail(this.value)"></td>
+
+            </tr>
+        </table>
+
+
+</div>
+
+</body>
+</html>

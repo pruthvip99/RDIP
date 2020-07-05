@@ -1,0 +1,35 @@
+<html>
+<head>
+    
+    <script src="cal.js"></script>
+   
+</head>
+<body>
+
+<div id="main">
+
+    <form name="form">
+      
+    </form>
+        <table>
+           
+            <tr>
+                <td><label for="text">Enter Palindrome</label></td>
+                <td><input type="text" name="palindrome" id="pPalindrome" onchange="palindrome(this.value)"></td>
+
+            </tr>
+            <tr>
+                <td><label for="text">Enter the words:</label></td>
+                <td><input type="text" name="anagram1" id="pAnagram1" ></td>
+                <td><input type="text" name="anagram2" id="pAnagram2" ></td>
+                <td><input type="button" name="submit" id="submit" value="Compare" onclick="anagram()" ></td>
+
+            </tr>
+
+        </table>
+
+
+</div>
+
+</body>
+</html>
